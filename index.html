@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta content='IE=Edge,chrome=1' http-equiv='X-UA-Compatible'>
+    <title>HISTORY</title>
+
+    <style type="text/css">
+
+      html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+        border: 0;
+        color: #fffdd4;
+        font-family: "helvetica neue", helvetica, sans-serif;
+        font-size: 13px;
+        font-style: inherit;
+        font-weight: normal;
+        margin: 0;
+        outline: 0;
+        padding: 0;
+      }
+      input, select, textarea {
+        font-size: inherit;
+      }
+      ol, ul {
+        list-style: none;
+      }
+      pre {
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+      }
+      table {
+        border-collapse: separate;
+        border-spacing: 0;
+        position: relative;
+      }
+      caption, th, td {
+        text-align: left;
+        font-weight: normal;
+      }
+      blockquote:before, blockquote:after {
+        content: "";
+      }
+      q:before, q:after {
+        content: "";
+      }
+      blockquote, q {
+        quotes: "" "";
+      }
+      article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+        display: block;
+      }
+      a {
+        font-size: inherit;
+      }
+      span {
+        color: inherit;
+        font-family: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+      }
+
+      html {
+        background-color: #000;
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        height: 100%;
+      }
+      body {
+        border-top: 4px solid #c0b479;
+        height: 100%;
+        -webkit-font-smoothing: antialiased;
+        position: relative;
+      }
+      body:after {
+        border: 30px solid #c0b479;
+        border-color: #c0b479 transparent transparent;
+        content: "";
+        height: 0;
+        margin-left: -30px;
+        left: 50%;
+        position: absolute;
+        top: 0;
+        width: 0;
+      }
+      .container {
+        min-height: 100%;
+      }
+      .container_footer {
+        background-image: url(bg_cont_foot.png);
+        background-position: center bottom;
+        background-repeat: repeat-x;
+        padding-bottom: 110px;
+      }
+      .wrapper {
+        margin: 0 auto;
+        position: relative;
+        text-align: center;
+        width: 900px;
+      }
+      h1 {
+        color: #fff;
+        font-family: "aw-conqueror-didot",serif;
+        font-size: 22px;
+        font-weight: normal;
+        letter-spacing: 2px;
+        padding-bottom: 40px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      h1 span {
+        display: block;
+        font-family: "helvetica neue", helvetica, sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        text-transform: none;
+      }
+      h2 {
+        color: #fffdd4;
+        font-family: "aw-conqueror-didot",serif;
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 2px;
+        padding-bottom: 10px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .history {
+        background-image: url(history.png);
+        background-position: center;
+        height: 550px;
+        margin: 100px 0;
+      }
+      p {
+        font-family: "helvetica neue", helvetica, sans-serif;
+        font-size: 16px;
+        letter-spacing: 2px;
+        line-height: 1.6;
+      }
+      .soundcloud {
+        background-image: url(splash.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 60px 0;
+        text-align: center;
+      }
+      .soundcloud .wrapper {
+        padding: 20px 0 10px;
+        width: 870px;
+      }
+      #actions a {
+        background-color: #655e3c;
+        border-radius: 4px;
+        display: inline-block;
+        margin: 0 10px;
+        text-decoration: none;
+        transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+      }
+      #actions a:hover {
+        background-color: #655e3c;
+      }
+      #actions a:hover img {
+        opacity: 0.7;
+      }
+      #actions a img {
+        display: block;
+        margin: -1px;
+        transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+      }
+
+      .btn {
+        background: #272724;
+        background: -moz-linear-gradient(top, #272724 0%, #13110d 100%);
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#272724), color-stop(100%,#13110d));
+        background: -webkit-linear-gradient(top, #272724 0%,#13110d 100%);
+        background: -o-linear-gradient(top, #272724 0%,#13110d 100%);
+        background: -ms-linear-gradient(top, #272724 0%,#13110d 100%);
+        background: linear-gradient(top, #272724 0%,#13110d 100%);
+        border: 1px solid #262522;
+        border-radius: 2px;
+        -webkit-box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.8) ;
+        -moz-box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.8);
+        box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.8);
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        height: 70px;
+        padding-top: 15px;
+        position: relative;
+        text-decoration: none;
+        transition: all 0.2s linear;
+        -moz-transition: all 0.2s linear;
+        -webkit-transition: all 0.2s linear;
+        -o-transition: all 0.2s linear;
+        width: 300px;
+      }
+      .btn:hover {
+        border: 1px solid #655e3c;
+      }
+      .btn p {
+        color: #fff;
+        display: inline-block;
+        font-family: "aw-conqueror-didot",serif;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        line-height: 1.3;
+        text-align: left
+      }
+      .btn img {
+        margin-left: 30px;
+        vertical-align: top;
+      }
+      .btn span {
+        color: #877e58;
+        display: block;
+        font-family: "helvetica neue", helvetica, sans-serif;
+        font-size: 9px;
+        letter-spacing: 1.5px;
+      }
+
+      #extra {
+        padding: 100px 0 40px;
+      }
+      #extra > a {
+        margin: 0 30px;
+      }
+
+      #footer {
+        background-image: url(bg_footer.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        border-top: 4px solid #c0b479;
+        height: 106px;
+        margin-top: -110px;
+        position: relative
+      }
+      #footer .wrapper {
+        text-align: left;
+      }
+      .copyright {
+        color: #666;
+        font-size: 11px;
+        letter-spacing: 2px;
+        padding-top: 45px;
+      }
+      .copyright img {
+        vertical-align: middle;
+      }
+      .social {
+        float: right;
+        padding-top: 40px;
+      }
+      .social a {
+        margin: 0 5px;
+      }
+      .social a:hover i {
+        background-color: #fff;
+      }
+      .social i {
+        background-color: #d5c886;
+        border-radius: 999px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #000;
+        font-size: 20px;
+        height: 32px;
+        text-align: center;
+        padding: 6px 0 0 1px;
+        width: 32px;
+      }
+      .modal {
+        background-color: #000;
+        border: 1px solid #c0b479;
+        -webkit-box-shadow: 0 0 60px 0 #000;
+        -moz-box-shadow: 0 0 60px 0 #000;
+        box-shadow: 0 0 60px 0 #000;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        bottom: 0;
+        color: #fff;
+        display: none;
+        font-family: "helvetica neue", helvetica, sans-serif;
+        font-size: 12px;
+        margin-left: -200px;
+        left: 50%;
+        line-height: 1.6;
+        padding: 20px 30px;
+        position: absolute;
+        text-align: center;
+        width: 400px;
+        z-index: 999
+      }
+      .close {
+        background-color: #fff;
+        border-radius: 999px;
+        color: #000;
+        position: absolute;
+        right: 5%;
+        top: 25px;
+        width: 20px;
+      }
+      @media screen and (max-width: 900px) {
+        .wrapper {
+          width: auto;
+        }
+        h1 {
+          font-size: 3.7vw;
+          padding: 0 20px 40px;
+        }
+        h1 span {
+          font-size: 3vw;
+          padding-top: 5px;
+        }
+        h1 + p {
+          font-size: 3vw;
+          padding: 0 20px;
+        }
+        .history {
+          height: 55vw;
+          background-repeat: no-repeat;
+          background-size: 150% auto;
+          margin: 15vw auto 15vw;
+        }
+        .soundcloud {
+          margin: 30px 0;
+          padding: 0 10px;
+        }
+        .soundcloud .wrapper {
+          width: 100%;
+        }
+        .soundcloud > img {
+          width: 100%;
+        }
+        #actions a {
+          margin: 0;
+        }
+        #actions a img {
+          width: 30vw;
+        }
+        #extra {
+          padding: 40px 0;
+        }
+        #extra > a {
+          margin: 0 0 20px;
+        }
+        .btn {
+          width: 90%;
+        }
+        #footer .wrapper {
+          text-align: center;
+        }
+        .social {
+          float: none;
+        }
+        .modal {
+          left: 5%;
+          margin-left: 0;
+          width: 90%;
+        }
+      }
+    </style>
+
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+    <script src="//use.typekit.net/ago3bhd.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="container_footer">
+        <div class="history"></div>
+
+        <div class="wrapper">
+          <h1>
+            HISTORY is Ryan Merchant  and Spencer Ludwig
+            <span>Their debut single "History" is a collaboration with André Anjos, better known as RAC.</span>
+          </h1>
+          <p>
+            You might like it, you might not.
+            <br>
+            Either way, it's yours to keep and yours to share.    
+          </p>
+        </div>
+
+        <div class="soundcloud">
+          <img src="divider.png" />
+          <div class="wrapper">
+            <!-- <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/140783505&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe> -->
+            <iframe width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/8450149&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+          </div>
+          <img src="divider.png" />
+        </div>
+
+        <div class="wrapper" id="actions">
+          <a href="" target="_blank">
+            <img src="btn_itunes.png" />
+          </a>
+          <a href="" target="_blank">
+            <img src="btn_spot.png" />
+          </a>
+          <a href="http://www.soundcloud.com/historycloud" target="_blank">
+            <img src="btn_sound.png" />
+          </a>
+        </div>
+
+        <div class="wrapper" id="extra">
+          <a href="" class="btn">
+            <p>
+              Download Stems
+              <span>MAKE YOUR OWN REMIX</span>
+            </p>
+            <img src="icon_dl.png" />
+          </a>
+          <a href="javascript://" onclick="$('.modal').show()" class="btn">
+            <p>
+              History Lyrics
+              <span>READ “HISTORY” LYRICS</span>
+            </p>
+            <img src="icon_lyrics.png" />
+          </a>
+
+          <div class="modal">
+            <a href="javascript://" onclick="$('.modal').hide()"  class="close"><i class="fa fa-close"></i></a>
+            <h2>HISTORY LYRICS</H2>
+            Stop lookin' at your feet
+            <br>
+            If you can see it, you can get it
+            <br>
+            Start livin' with a reason
+            <br>
+            Your perception, it needs direction
+            <br>
+            <br>
+            But I can't tell you what to do
+            <br>
+            But I can see that your pretension has stolen your dimension
+            <br>
+            And you're gonna do the things you do
+            <br>
+            As long as you know your fate is up to you
+            <br>
+            <br>
+            Will you go down in history for nothing?
+            <br>
+            Not me
+            <br>
+            Will you go down in history for nothing?
+            <br>
+            Not me 
+            <br>
+            <br>
+            You never know, you never know where you could go
+            <br>
+            Until you're pushing your personality 
+            <br>
+            So be the one that's having fun with everyone
+            <br>
+            You got it in you, you're anatomy 
+            <br>
+            <br>
+            But I can't tell you what to do
+            <br>
+            But I can see that your pretension has stolen your dimension
+            <br>
+            And you're gonna do the things you do
+            <br>
+            As long as you know your fate is up to you
+            <br>
+            <br>
+            There's a voice that's keeping you up at night I feel it too
+            <br>
+            To make a name for yourself you gotta rise above the rules 
+            <br>
+            <br>
+            Will you go down in history for nothing?
+            <br>
+            Not me
+            <br>
+            Will you go down in history for nothing?
+            <br>
+            Not me 
+            <br>
+            Will you go down in history for nothing?
+            <br>
+            Not me
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="wrapper">
+
+        <div class="social">
+          <a href="" target="_blank"><i class="fa fa-facebook"></i></a>
+          <a href="//www.instagram.com/historysees" target="_blank"><i class="fa fa-instagram"></i></a>
+          <a href="//www.twitter.com/historysays" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <div class="copyright">
+          © 2014
+          <img src="logo.png"/>
+          All Rights Reserved.
+        </div>
+
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>
